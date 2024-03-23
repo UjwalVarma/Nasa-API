@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif; 
+}
+::-webkit-scrollbar{
+    display : none;   
+}
+
+.mainContainer{
+    background : black;
+    color : white;
+    padding : 15px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content: center;
+    gap : 20px;
+}
+#current-image{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content: center;
+    gap : 10px;
+}
+.image{
+    width : 60%;
+    height : 60vh;
+}
+.para{
+    letter-spacing: 1px;
+    width : 60%;
+    text-align : justify;
+    text-justify : inter-word;
+}
+  form {
+    display: flex;
+    align-items: center;
+    gap : 20px;
+  }
+  
+  label {
+    margin-right: 1rem;
+    font-weight : 600;
+  }
+  form input{
+    padding : 6px 8px;
+    font-weight : 600;
+    background: transparent;
+    outline: 1px;
+    border : 1px solid white;
+    border-radius : 3px;
+    color : white;
+  }
+  form button{
+    padding : 6px 8px;
+    font-size: 1rem;
+    font-weight : 600;
+    background-color: transparent;
+    border : 1px solid white;
+    width : 120px;
+    border-radius : 3px;
+    color : white;
+  }
+  
+form button:hover{
+   width : 124px;
+   background: #e0c424;
+   color :black;
+   border : transparent
+}
+.formContainer{
+    background-color: #006666;
+    padding : 15px;
+   min-height : 350px;
+   color : white;
+}
+.bottomSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.formContainer h3{
+    line-height: 45px;
+}
+
+  #search-history li {
+    list-style : none;
+    color : hsl(180, 76%, 61%);
+    padding: 0;
+    font-size : 20px;
+    margin-bottom: 0.5rem;
+    margin-left : 1rem;
+  }
+  #search-history li:hover{
+    color : red;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  #head{
+    letter-spacing: 2px;
+  }

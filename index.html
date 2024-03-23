@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NASA Picture of the Day</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload = "getCurrentImageOfTheDay()">
+  <div class="mainContainer">
+    <header>
+       <h1 id="head"></h1>
+    </header>
+
+    <section id="current-image-container">
+        <div id="current-image"></div>
+      </section>
+</div>
+
+
+  <div class="formContainer">
+    <section class="bottomSection">
+      <h3>Search for a Picture of the Day</h3>
+      <form id="search-form">
+        <p>Select a date:</p>
+        <input type="date" id="search-input">
+        <button onclick="getImageOfTheDay()" type="button">Search</button>
+      </form>
+    </section>
+
+    <section class="bottomSection">
+      <h3>Search History</h3>
+      <ul id="search-history"></ul>
+    </section>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
+
